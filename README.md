@@ -125,6 +125,13 @@ bool = isStruct( null );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/assert-is-struct-constructor-like`][@stdlib/assert/is-struct-constructor-like]</span><span class="delimiter">: </span><span class="description">test if a value is struct constructor-like.</span>
+-   <span class="package-name">[`@stdlib/dstructs-struct`][@stdlib/dstructs/struct]</span><span class="delimiter">: </span><span class="description">fixed-width composite data type (a.k.a., a `struct`).</span>
+
 </section>
 
 <!-- /.related -->
@@ -202,6 +209,12 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-struct/main/LICENSE
 
 [@stdlib/dstructs/struct]: https://github.com/stdlib-js/dstructs-struct
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-struct-constructor-like]: https://github.com/stdlib-js/assert-is-struct-constructor-like
+
+<!-- </related-links> -->
 
 </section>
 
