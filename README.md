@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isStruct from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-struct@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-struct/tags). For example,
+
+```javascript
 import isStruct from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-struct@v0.1.0-esm/index.mjs';
 ```
 
@@ -81,7 +86,7 @@ var bool = isStruct( new Struct() );
 <script type="module">
 
 import structFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/dstructs-struct@esm/index.mjs';
-import isStruct from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-struct@v0.1.0-esm/index.mjs';
+import isStruct from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-struct@esm/index.mjs';
 
 var schema = [
     {
