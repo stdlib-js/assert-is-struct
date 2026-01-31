@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isStruct from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-struct@esm/index.mjs';
+import isStruct from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-struct@v0.1.0-esm/index.mjs';
 ```
 
 #### isStruct( value )
@@ -81,7 +81,7 @@ var bool = isStruct( new Struct() );
 <script type="module">
 
 import structFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/dstructs-struct@esm/index.mjs';
-import isStruct from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-struct@esm/index.mjs';
+import isStruct from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-struct@v0.1.0-esm/index.mjs';
 
 var schema = [
     {
